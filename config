@@ -177,6 +177,6 @@ bar {
         }
 }
 
-bindsym $mod+p exec ~/.i3/i3lock-fancy/lock
+bindsym $mod+p exec ~/.i3/i3lock/lock
 bindsym $mod+i exec amixer -q set Master 2dB+ unmute
 bindsym $mod+o exec amixer -q set Master 2dB- unmute
